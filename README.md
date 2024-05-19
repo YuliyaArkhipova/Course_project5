@@ -21,16 +21,18 @@ _Авито_, _VK_, _Центр финансовых технологий_, _Sel
 
 `python3 -m venv venv`
 
-4. Активируйте виртуальное окружение
+3. Активируйте виртуальное окружение
    
 Windows: `venv\Scripts\activate`  
 macOS и Linux: `source venv/bin/activate` 
 
-5. Установите необходимые для работы библиотеки, указанные в requirements.txt
+4. Установите необходимые для работы библиотеки, указанные в requirements.txt
    
 `python -m pip install -r requirements.txt`  
 
-6. Заполните файл database.ini
+5. Заполните файл database.ini
+   
+6. Для включения в программу другой компаний, необходимо добавить ее ID в переменную `company_ids`
 
 7. Запустите 'main.py'
 
